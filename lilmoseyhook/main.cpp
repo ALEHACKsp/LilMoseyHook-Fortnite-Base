@@ -42,6 +42,9 @@ int main() {
 			main_loop();
 		}
 	}
+		std::cout << E("[-] Driver Failed, did you map it correctly?") << std::endl;
+		system(E("pause"));
+		exit(0);
 }
 
 WPARAM main_loop()
